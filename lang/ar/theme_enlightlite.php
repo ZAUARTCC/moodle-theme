@@ -220,6 +220,7 @@ $string['learnanytimedesc'] = 'يتمتع دورات مجانية على الا�
 $string['lavender'] = "الخزامي";
 $string['blue'] = "أزرق";
 $string['purple'] = "أرجواني";
+$string['material'] = "Material";
 $string['red'] = "أحمر";
 $string['green'] = "أخضر";
 $string['default'] = "افتراضي";
