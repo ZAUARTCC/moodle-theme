@@ -49,7 +49,7 @@ if ($ADMIN->fulltree) {
         '2' => get_string("lavender", "theme_enlightlite"),
         '3' => get_string("red", "theme_enlightlite"),
         '4' => get_string("purple", "theme_enlightlite"),
-        '5' => get_string("material", "theme_enlightlite")
+        '5' => "Material"
     );
 
     $setting = new admin_setting_configselect($name, $title, $description, $default, $choices);
