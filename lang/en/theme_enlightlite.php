@@ -237,6 +237,7 @@ $string['purple'] = "Purple";
 $string['red'] = "Red";
 $string['green'] = "Green";
 $string['default'] = "Default";
+$string['material'] = "Material";
 $string['cat-placeholder'] = "Type the course name here...";
 $string['primarymenu'] = "Primary menu items";
 $string['primarymenudesc'] = "You can configure a primary menu here to be shown by themes. Each line consists of some menu text, a link URL (optional), a tooltip title (optional) and a language code or comma-separated list of codes (optional, for displaying the line to users of the specified language only), separated by pipe characters. Lines starting with a hyphen will appear as menu items in the previous top level menu, and dividers can be used by adding a line of one or more # characters where desired. <br>

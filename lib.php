@@ -64,6 +64,9 @@ function theme_enlightlite_get_main_scss_content($theme) {
     } else if ($filename == 'pattern-4.scss') {
         $scss .= file_get_contents($CFG->dirroot . '/theme/enlightlite/scss/preset/pattern-4.scss');
 
+    } else if ($filename == 'pattern-5.scss') {
+        $scss .= file_get_contents($CFG->dirroot . '/theme/enlightlite/scss/preset/pattern-5.scss');
+
     } else if ($filename && ($presetfile = $fs->get_file($context->id, 'theme_enlightlite', 'preset', 0, '/', $filename))) {
         $scss .= $presetfile->get_content();
 
