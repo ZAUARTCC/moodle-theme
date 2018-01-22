@@ -1,23 +1,24 @@
-$color_picton_blue_approx: #39b3e6;
+$color_picton_blue_approx: #3f51b5;
 $color_storm_dust_approx: #656565;
 $color_tuatara_approx: #353535;
 $white: #fff;
 $color_shark_approx: #2a2a2a;
-$color_bahama_blue_approx: #005f92;
-$color_picton_blue_50_approx: rgba(57, 179, 230, .5);
+$color_bahama_blue_approx: #4357C2;
+$color_picton_blue_50_approx: rgba(63, 81, 181, .5);
 $color_tundora_approx: #444444;
 $color_tuatara_50_approx: rgba(53, 53, 53, .5);
-$color_picton_blue_90_approx: rgba(57, 179, 230, .9);
+$color_picton_blue_90_approx: rgba(63, 81, 181, .9);
 $color_celeste_approx: #cfcfcf;
-$color_picton_blue_83_approx: rgba(57, 179, 230, .83);
-$color_picton_blue_94_approx: rgba(57, 179, 230, .94);
+$color_picton_blue_83_approx: rgba(63, 81, 181, .83);
+$color_picton_blue_94_approx: rgba(63, 81, 181, .94);
 $color_rangoon_green_approx: #1e1e1e;
-$color_astronaut_blue_approx: #003e5f;
+$color_astronaut_blue_approx: #293475;
 $color_pattens_blue_approx: #ddeef8;
 $color_botticelli_approx: #cde2ee;
 $color_spindle_approx: #b8d3e2;
-$color_picton_blue_60_approx: rgba(57, 179, 230, .6);
-$color_picton_blue_80_approx: rgba(57, 179, 230, 0.8);
+$color_picton_blue_60_approx: rgba(63, 81, 181, .6);
+$color_picton_blue_80_approx: rgba(63, 81, 181, 0.8);
+$material_pink: #FF4081;
 $footbgimgOverlay: true !default;
 
 a {
@@ -1071,4 +1072,10 @@ table.quizreviewsummary th.cell {
 }
 .dir-rtl .box .search-block h2:after {
     color: $color_picton_blue_approx;
+}
+:selection {
+    background: $material_pink;
+}
+::-moz-selection {
+    background: $material_pink;
 }
